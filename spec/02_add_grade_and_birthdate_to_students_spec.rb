@@ -9,7 +9,7 @@ describe AddGradeAndBirthdateToStudents do
     # Manually runs the migrations
     CreateStudents.new.change
     AddGradeAndBirthdateToStudents.new.change
-    
+
     Student.reset_column_information
   end
 
